@@ -1,3 +1,10 @@
+-----------------------------------------------------------------------------
+-- Copyright (c) 2023  Javier Jorge <jjorge@inti.gob.ar>
+-- Copyright (c) 2023  Instituto Nacional de Tecnología Industrial
+-- Copyright (C) 2023  Asociación Civil Altermundi <info@altermundi.net>
+--
+--  SPDX-License-Identifier: AGPL-3.0-only
+-----------------------------------------------------------------------------
 
 local M={
 	name=...,       -- module name, upvalue from require('module-name')

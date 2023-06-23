@@ -1,6 +1,7 @@
 /********************************************************
  * PID Basic Example
- * Reading analog input 0 to control analog PWM output 3
+ * compile with 
+ *      g++ PID_Basic_validation.cc ../PID_v1.cpp  -I ../ -D LINUX
  ********************************************************/
 
 #include <PID_v1.h>
