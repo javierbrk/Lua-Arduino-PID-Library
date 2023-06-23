@@ -5,12 +5,24 @@
  * This Library is licensed under the MIT License
  **********************************************************************************************/
 
+//uncomment this line to validate the translation
+//#define LINUX
+
+#ifdef LINUX
+unsigned long time=0;
+unsigned long millis()
+{
+	time = time + 200;
+	return time;
+}
+#else
+
 #if ARDUINO >= 100
   #include "Arduino.h"
 #else
   #include "WProgram.h"
 #endif
-
+#endif
 #include <PID_v1.h>
 
 /*Constructor (...)*********************************************************
