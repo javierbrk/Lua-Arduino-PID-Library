@@ -8,7 +8,7 @@
 
 local M={
 	name=...,       -- module name, upvalue from require('module-name')
-	model=nil,      -- sensor model: BME280
+	model=nil,      
 	verbose=false,    -- verbose output
 	debug=nil,      -- additional ckecks
 	time=0,
